@@ -128,17 +128,14 @@ http://localhost:8000
 - Networking: Kubernetes DNS (diabetes-db-service)
 
 Notes
-emptyDir volume is used for learning/demo purposes
+- emptyDir volume is used for learning/demo purposes
 
 For production:
 
-Use PersistentVolumeClaims (PVCs)
-
-Store credentials in Kubernetes Secrets
-
-Push images to a container registry
-
-Add liveness/readiness probes
+- Use PersistentVolumeClaims (PVCs)
+- Store credentials in Kubernetes Secrets
+- Push images to a container registry
+- Add liveness/readiness probes
 
 License
 
